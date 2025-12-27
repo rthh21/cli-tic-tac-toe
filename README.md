@@ -41,7 +41,7 @@ The game is designed with a "hybrid" interface, allowing keyboard commands and m
 
 ---
 
-### Technical Architecture
+### About the code
 
 The codebase is split into three logical components: the Game Engine, the Rendering Logic, and the Event Loop.
 
@@ -95,7 +95,7 @@ The `main()` function manages the `ncurses` lifecycle and input handling.
 
 **Q: Clicking the grid does nothing.**
 
-* **Linux/Mac:** Ensure your terminal emulator supports mouse reporting (e.g., Gnome Terminal, iTerm2, Alacritty).
+* **Linux/Mac:** Ensure your terminal emulator supports mouse reporting (be sure, Gnome Terminal, iTerm2, Alacritty).
 * **Windows:** If using CMD or PowerShell, right-click the title bar, go to **Properties**, and uncheck **"QuickEdit Mode"**. This mode often hijacks mouse clicks.
 
 **Q: The screen is blank.**
